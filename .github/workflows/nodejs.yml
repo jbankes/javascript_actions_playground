@@ -20,7 +20,7 @@ jobs:
     - name: npm install 
       run: npm install
     - name: eslint src/
-      run: npm lint -- src/
+      run: npm run lint -- src/
     - name: npm test
       run: npm test
       env:
